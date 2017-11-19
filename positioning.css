@@ -1,0 +1,45 @@
+h1 {
+	text-align: center;
+}
+
+p {
+	font-size: 22px;
+}
+
+.container {
+	text-align: center;
+	margin: auto;
+	width: 40%;
+	float: center;
+}
+
+.position-relative {
+	height: 285px;
+	width: auto;
+	background-color: gray;
+	color: #fff;
+	position: relative;
+	font-size: 22px;
+}
+
+.position-fixed {
+	height: 300px;
+	width: 300px;
+	background-color: lightgray;
+	color: #fff;
+	position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+}
+
+.position-absolute {
+	height: 100px;
+	width: 200px;
+	background-color: darkgray;
+	color: #fff;
+	position: absolute;
+	top: 350px;
+    right: 400px;
+    font-size: 22px;
+}
